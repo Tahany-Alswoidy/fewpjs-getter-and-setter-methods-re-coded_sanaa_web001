@@ -20,15 +20,16 @@ class Circle{
   get radius(){
     return this.radius;
   }
-  set diameter(diameter){
-    this.diameter=diameter;
+  set diameter(newDiameter){
+    this.diameter=newDiameter;
+    this.radius=this.diameter/2;
   }
-  set circumference(circumference){
-    this.circumference=circumference;
-    // this.radius=this.circumference/(Math.PI*2);
+  set circumference(newCircumference){
+    this.circumference=newCircumference;
+    this.radius=this.circumference/(Math.PI*2);
   }
-  set area(area){
-    this.area=area;
-    // this.radius=Math.sqrt(this.area/(Math.PI));
+  set area(newArea){
+    this.area=newArea;
+    this.radius=Math.sqrt(this.area/(Math.PI));
   }
 }
