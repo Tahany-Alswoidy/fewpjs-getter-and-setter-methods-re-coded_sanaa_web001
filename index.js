@@ -22,14 +22,14 @@ class Circle{
   }
   set diameter(newDiameter){
     this.diameter=newDiameter;
-    this.radius=this.diameter/2;
+    return this.radius=this.diameter/2;
   }
   set circumference(newCircumference){
     this.circumference=newCircumference;
-    this.radius=this.circumference/(Math.PI*2);
+    return this.radius=this.circumference/(Math.PI*2);
   }
   set area(newArea){
     this.area=newArea;
-    this.radius=Math.sqrt(this.area/(Math.PI));
+    return this.radius=Math.sqrt(this.area/(Math.PI));
   }
 }
