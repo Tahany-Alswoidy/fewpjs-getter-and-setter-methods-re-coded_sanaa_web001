@@ -20,6 +20,9 @@ class Circle{
   get radius(){
     return this.radius;
   }
+  set radius(newRadius){
+    this.radius=newRadius;
+  }
   set diameter(newDiameter){
     this.diameter=newDiameter;
     return this.radius=this.diameter/2;
