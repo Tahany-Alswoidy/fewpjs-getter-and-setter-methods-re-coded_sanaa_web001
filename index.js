@@ -13,10 +13,10 @@ class Circle{
     return Math.PI*this.radius*this.radius;
   }
   // set radius(){
-    this.radius=this.diameter/2;
-    this.radius=this.circumference/(Math.PI*2);
-    this.radius=Math.sqrt(this.area/(Math.PI));
-  }
+  //   this.radius=this.diameter/2;
+  //   this.radius=this.circumference/(Math.PI*2);
+  //   this.radius=Math.sqrt(this.area/(Math.PI));
+  // }
   get radius(){
     return this.radius;
   }
